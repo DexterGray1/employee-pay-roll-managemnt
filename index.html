@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee payroll management</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="containers">
+        <header><strong>
+            <center>Pay Role Management</center> 
+        
+            </strong></header>
+
+            <p class="description">
+                enter the bill amount and the money given by the customer and the minimum amount of money given back to the customer
+            </p>
+
+            <label for="input-bill">
+                <strong>Enter the money amount</strong>
+            </label>
+            <input class="input-bill" id="bill">
+           <label for="cash-given">
+                <strong>Cash given</strong>
+           </label>
+           <input class="cash-given" id="cash">
+            <button class="check-btn" id="btn">Check</button>
+            <p id="error">
+
+            </p>
+
+            <table class="table">
+                <caption>
+                    <strong>Return change</strong>
+                </caption>
+                <tr class="row">
+                    <th class="row">No of notes</th>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+                        <td class="no-of-notes"></td>
+
+                </tr>
+                <tr>
+                    <th class="row">Notes</th>
+                    <td class="row">2000</td>
+                    <td class="row">500</td>
+                    <td class="row">100</td>
+                    <td class="row">20</td>
+                    <td class="row">10</td>
+                    <td class="row">5</td>
+                    <td class="row">1</td>
+                </tr>
+            </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
